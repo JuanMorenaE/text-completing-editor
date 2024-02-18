@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script src="./app.js"></script>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <section class="container">
+            <div class="column1">
+                <div class="column-items">
+                    <header>
+                        <h1><span>Text Completing</span> Editor</h1>
+                        <h2>Created by <strong>tizify.</strong></h2>
+                        <p>Write a text and use "[custom-text]" to insert parameters.</p>
+                    </header>
+                    <textarea id="main-text"></textarea>
+                    <div id="inputsContainer">
+                        <h2>Parameters:</h2>
+                        <div id="input-wrapper"></div>
+                    </div>
+                </div>
+            </div>
+            <aside class="column2">
+                <div class="column-items">
+                    <div class="text-container" id="textContainer">
+                        <p id="text"></p>
+                    </div>
+                    <button id="copyButton">Copy</button>
+                </div>
+            </aside>
+        </section>
+    </body>
+</html>
